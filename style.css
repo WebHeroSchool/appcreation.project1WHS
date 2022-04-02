@@ -17,13 +17,8 @@ body {
 .logo {
    position: relative;
    margin-right: 61%;
-   /*padding: 40px 0;*/
    padding-left: 44px;
    font: bold 24px/31px 'PT Serif', serif, Arial, Helvetica, sans-serif;
-   /* здесь параметры картинки и в html
-   width: 190px;
-   height: 35px;
-   background:url(logo/logo.svg);*/
 }
 .logo__circle {
    position: absolute;
