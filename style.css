@@ -88,6 +88,7 @@ body {
 }
 .main__title-text_highlight {
    background: #ECF3FF;
+   background: linear-gradient(#FFF 5px, #ECF3FF 100%,#FFF 5px);
 }
 .main__subtitle {
    margin:0 0 41px 0;
