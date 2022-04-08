@@ -3,7 +3,8 @@ body {
    }
 .wrapper{
    margin: auto;
-   width: 80%;
+   width: 100%;
+   max-width: 1530px;
 }
 .logo, .menu {
    display: inline-block;
@@ -23,7 +24,7 @@ body {
 .logo__circle {
    position: absolute;
    left: 0;
-   top: 50%;
+   top: 43%;
    transform: translateY(-50%);
    width: 28px;
    height: 28px;
@@ -32,7 +33,7 @@ body {
 }
 .logo__circle_color_blue{
    left: 8px;
-   top: 55%;
+   top: 63%;
    background: #C8DBFB;
 }
 .logo__circle_color_dark-blue {
@@ -41,17 +42,18 @@ body {
 .menu {
    display: flex;
    align-items: center;
-   margin-right: 16px;
-   margin-top: 9px;
+   margin-right: 8px;
+   padding-top: 8px;
 }
 .menu__item {
    position: relative;
-   margin-right: 25px;
+   margin-right: 26px;
    font: 500 18px/24px 'Roboto', serif, Arial, Helvetica, sans-serif;
    color: #000 ;
    text-decoration: none;
 }
 .menu__item::after {
+   bottom: 0;
    position: absolute;
    display: block;
    content:'';
@@ -60,7 +62,7 @@ body {
    height: 3px;
    background:#0056EC;
    opacity: 0;
-   transition:opacity .5s; width: .5s;
+   transition:opacity .5s;
 }
 .menu__item:hover {
    opacity: 0.5;
@@ -75,7 +77,7 @@ body {
 }
 
 .main {
-   padding:0 63% 100% 0;
+   padding: 0 63% 245px 0;
    background: top right no-repeat url(image/picture.svg);
 }
 .main__title {
@@ -87,8 +89,7 @@ body {
    height: 255px;
 }
 .main__title-text_highlight {
-   background: #ECF3FF;
-   background: linear-gradient(#FFF 5px, #ECF3FF 100%,#FFF 5px);
+   background: linear-gradient(#FFF 0px, #FFF 18%, #ECF3FF 18%, #ECF3FF 100%);
 }
 .main__subtitle {
    margin:0 0 41px 0;
@@ -99,7 +100,7 @@ body {
 }
 .main__buttom {
    display: inline-block;
-   padding: 20px 30px;
+   padding: 18px 36px 19px 21px;
    font: 500 18px/21px 'Roboto', serif, Arial, Helvetica, sans-serif;
    color: #FFF;
    background: #0056EC;
@@ -109,4 +110,22 @@ body {
 }
 .main__buttom:hover {
    opacity: .5;
+}
+.footer {
+   margin: 0;
+   background: center no-repeat url(footer/точки.svg);
+}
+
+@media (max-width: 768px){
+.menu {
+   display: none;
+}
+.header{
+   margin-bottom:  28px;
+}
+.main {
+   padding: 74% 0 0;
+background-size: 74%;
+background-position: top center;
+}
 }
