@@ -116,19 +116,22 @@ body {
    background: center no-repeat url(footer/точки.svg);
 }
 
-
-
-
 @media (mах-width: 1366px) {
+   .wrapper {
+      max-width: 925px;
+   }
 .header {
-      padding: 40px 0;
+      padding-right: 33%;
+      margin-bottom: 127px;
    }
 .logo {
-   margin-right: 56%;
-   /*я по макету посчитала и получилось 68%*, но по ДевТул лучше 56% */
+   padding: 0 45% 100px 0;
+}
+.menu {
+   font: 500 14px/16px 'Roboto', serif, Arial, Helvetica, sans-serif;
 }
 .main {
-   padding: 0 60% 150px 0;
+   padding: 0 60% 100px 0;
 }
 .main__title {
    font: bold 50px/66px 'PT Serif', serif, Arial, Helvetica, sans-serif;
@@ -141,7 +144,7 @@ body {
 }
 }
 
-@media (mах-width: 1024px) {
+@media (mах-width: 1024px){
 .header {
       padding: 40px 0;
    }
@@ -191,5 +194,6 @@ body {
 }
 .footer {
    background: none;
+}
 }
 }
