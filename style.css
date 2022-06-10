@@ -116,25 +116,25 @@ body {
    background: center no-repeat url(footer/точки.svg);
 }
 
-@media (mах-width: 1366px) {
-   .wrapper {
+@media (max-width: 1366px) {
+.wrapper {
       max-width: 925px;
-   }
+}
 .header {
       padding-right: 33%;
       margin-bottom: 127px;
-   }
+}
 .logo {
-   padding: 0 45% 100px 0;
+      padding: 0 45% 100px 0;
 }
 .menu {
-   font: 500 14px/16px 'Roboto', serif, Arial, Helvetica, sans-serif;
+      font: 500 14px/16px 'Roboto', serif, Arial, Helvetica, sans-serif;
 }
 .main {
    padding: 0 60% 100px 0;
 }
 .main__title {
-   font: bold 50px/66px 'PT Serif', serif, Arial, Helvetica, sans-serif;
+   font: bold 50px/66px 'Roboto', serif, Arial, Helvetica, sans-serif;
 }
 .main__subtitle {
    font: 500 18px/21px 'Roboto', serif, Arial, Helvetica, sans-serif;
@@ -144,10 +144,13 @@ body {
 }
 }
 
-@media (mах-width: 1024px){
+@media (max-width: 1024px) {
+.wrapper {
+   max-width: 932px;
+}
 .header {
-      padding: 40px 0;
-   }
+   padding: 40px 0;
+}
 .logo {
    margin-right: 56%;
 }
@@ -155,7 +158,7 @@ body {
    padding: 0 60% 150px 0;
 }
 .main__title {
-   font: bold 50px/66px 'PT Serif', serif, Arial, Helvetica, sans-serif;
+   font: bold 50px/66px 'Roboto', serif, Arial, Helvetica, sans-serif;
 }
 .main__subtitle {
    font: 500 18px/21px 'Roboto', serif, Arial, Helvetica, sans-serif;
@@ -194,6 +197,5 @@ body {
 }
 .footer {
    background: none;
-}
 }
 }
