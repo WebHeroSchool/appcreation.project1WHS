@@ -213,11 +213,10 @@ body {
 .footer {
    background: none;
 }
-/* скрываем чекбокс */
+
 #menu__toggle {
    opacity: 0;
 }
- /* стилизуем кнопку */
 .menu__btn {
    display: flex; 
    align-items: center;
@@ -247,7 +246,6 @@ body {
    content: '';
    top: 8px;
 }
-/* контейнер меню */
 .menu__box {
    display: block;
    position: fixed;
@@ -314,3 +312,23 @@ body {
    width: 255px;
 }
 }
+
+@keyframes move {
+   0% {
+      transform: translateY(0%);
+      opacity: 25%;
+   }
+   5% {
+      transform: translateY(5%);
+      opacity: 100%;
+      color: aqua;
+   }
+}
+.main__buttom {
+   animation-name: move;
+   animation-duration: 5s;
+   animation-timing-function: ease-in-out;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+   }
+
