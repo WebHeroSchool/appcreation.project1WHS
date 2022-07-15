@@ -83,7 +83,6 @@ body {
 .menu__item:last-child{
    margin-right: 0;
 }
-
 .main {
    padding: 0 63% 245px 0;
    background: top right no-repeat url(image/picture.svg);
@@ -138,8 +137,8 @@ body {
    margin-bottom: 43px;
 }
 .menu__item {
-      margin-right: 26px;
-      font: 500 14px/16px 'Roboto';
+   margin-right: 26px;
+   font: 500 14px/16px 'Roboto';
 }
 .main {
    padding-top: 56px;
@@ -228,7 +227,7 @@ body {
    cursor: pointer;
    z-index: 1;
 }
- /* добавляем "гамбургер" */
+
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -314,15 +313,15 @@ body {
 }
 
 @keyframes move {
-   0% {
-      transform: translateY(0%);
-      opacity: 25%;
-   }
-   5% {
-      transform: translateY(5%);
-      opacity: 100%;
-      color: aqua;
-   }
+0% {
+   transform: translateY(0%);
+   opacity: 25%;
+}
+5% {
+   transform: translateY(5%);
+   opacity: 100%;
+   color: aqua;
+}
 }
 .main__buttom {
    animation-name: move;
@@ -330,5 +329,5 @@ body {
    animation-timing-function: ease-in-out;
    animation-delay: 2s;
    animation-iteration-count: infinite;
-   }
+}
 
